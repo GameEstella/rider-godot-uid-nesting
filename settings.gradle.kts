@@ -1,1 +1,1 @@
-rootProject.name = "rider-godot-uid-nesting"
+rootProject.name = "godot-sidecar-file-nesting"

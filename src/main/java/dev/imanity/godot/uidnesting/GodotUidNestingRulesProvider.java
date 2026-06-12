@@ -1,4 +1,4 @@
-package dev.leegod.rider.godotuidnesting;
+package dev.imanity.godot.uidnesting;
 
 import com.intellij.ide.projectView.ProjectViewNestingRulesProvider;
 import org.jetbrains.annotations.NotNull;

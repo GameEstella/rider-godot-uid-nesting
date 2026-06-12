@@ -1,6 +1,6 @@
 # Godot Sidecar File Nesting
 
-This Rider plugin nests Godot sidecar files under their matching files in the tree view.
+This plugin nests Godot sidecar files under their matching files in the tree view.
 
 Examples:
 
@@ -20,7 +20,7 @@ Run:
 ./gradlew build
 ```
 
-## Run in Rider sandbox
+## Run in Sandbox
 
 Run:
 
