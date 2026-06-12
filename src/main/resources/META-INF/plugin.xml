@@ -1,0 +1,22 @@
+<idea-plugin>
+    <id>dev.leegod.rider.godot.uidnesting</id>
+    <name>Godot Sidecar File Nesting</name>
+    <version>0.1.2</version>
+    <vendor>leegod</vendor>
+    <description><![CDATA[
+    Nests Godot sidecar files like <code>.uid</code> and <code>.<locale>.translation</code>
+    under their matching files in Rider's tree views.
+  ]]></description>
+    <idea-version since-build="261" />
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <projectViewNestingRulesProvider
+                implementation="dev.leegod.rider.godotuidnesting.GodotUidNestingRulesProvider"
+                order="first" />
+        <treeStructureProvider
+                implementation="dev.leegod.rider.godotuidnesting.GodotUidTreeStructureProvider"
+                order="first" />
+    </extensions>
+</idea-plugin>
